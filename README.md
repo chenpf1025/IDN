@@ -14,7 +14,7 @@ This is the official repository for the paper *Beyond Class-Conditional Assumpti
 * torch 1.2+
 
 ## 1. Instance-Dependent Noise (IDN)
-### 1.1 Noisy labels used in this paper
+### 1.1. Noisy labels used in this paper
 In our experiments, we generated noisy labels of IDN for MNIST and CIFAR-10. Here we release the related files.
 ```
 data/CIFAR10/label_noisy/dependent0.1.csv
@@ -42,7 +42,7 @@ targets_noisy = torch.Tensor(pd.read_csv('./data/MNIST/label_noisy/dependent0.4.
 train_dataset_noisy.targets = targets_noisy
 ```
 
-### 1.2 Synthetizing IDN
+### 1.2. Synthetizing IDN
 If you prefer to synthetize IDN, e.g., to synthetize 45% IDN for CIFAR-10, you can use the following commands.
 ```
 python cifar10_gen_dependent.py --noise_rate 0.45 --gen
@@ -56,7 +56,7 @@ If you need to write a script to synthetize IDN for a new dataset, you can refer
 
 
 ## 2. Combating IDN using SEAL
-### 2.1 MNIST
+### 2.1. MNIST
 For SEAL, we use 10 iterations. We can run the commands one-by-one as follows.
 ```
 python train_mnist.py --noise_rate 0.2 --SEAL 0 --save
@@ -67,7 +67,7 @@ python train_mnist.py --noise_rate 0.2 --SEAL 10 --save
 The initial iteration is equivalent to training using the cross-entropy (CE) loss. To run experiments on different noise fractions, 
 we can choose --noise_rate in {0.1,0.2,0.3,0.4}.
 
-### 2.2 CIFAR-10
+### 2.2. CIFAR-10
 For SEAL, we use 3 iterations. We can run the commands one-by-one as follows.
 ```
 python train_cifar10.py --noise_rate 0.2 --SEAL 0 --save
@@ -78,7 +78,7 @@ python train_cifar10.py --noise_rate 0.2 --SEAL 3 --save
 The initial iteration is equivalent to training using the cross-entropy (CE) loss. To run experiments on different noise fractions, 
 we can choose --noise_rate in {0.1,0.2,0.3,0.4}.
 
-### 2.3 Clothing1M
+### 2.3. Clothing1M
 By default, the training requirements 4 GPUs.
 For SEAL, we use 3 iterations. We can run the commands one-by-one as follows.
 ```
