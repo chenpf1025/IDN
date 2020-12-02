@@ -15,7 +15,7 @@ This is the official repository for the paper *Beyond Class-Conditional Assumpti
 
 ## 1. Instance-Dependent Noise (IDN)
 ### 1.1 Noisy labels used in this paper
-In our experiments, we generated noisy labels of IDN for MNIST and CIFAR-10. Here we release the related files for your convience.
+In our experiments, we generated noisy labels of IDN for MNIST and CIFAR-10. Here we release the related files.
 ```
 data/CIFAR10/label_noisy/dependent0.1.csv
 data/CIFAR10/label_noisy/dependent0.2.csv
