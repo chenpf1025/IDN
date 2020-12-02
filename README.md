@@ -55,7 +55,7 @@ python cifar10_gen_dependent.py --noise_rate 0.35 --gen --load
 If you need to write a script to synthetize IDN for a new dataset, you can refer to the file *mnist_gen_dependent.py* and *cifar10_gen_dependent.py*.
 
 
-## 2. Combating IDN with SEAL
+## 2. Combating IDN using SEAL
 ### 2.1 MNIST
 For SEAL, we use 10 iterations. We can run the commands one-by-one as follows.
 ```
