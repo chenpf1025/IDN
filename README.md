@@ -10,8 +10,8 @@ This is the official repository for the paper *Beyond Class-Conditional Assumpti
 ```
 
 ## 0. Requirements
-python 3.6+
-torch 1.2+
+* python 3.6+
+* torch 1.2+
 
 ## 1. Instance-Dependent Noise (IDN)
 ### 1.1 Noisy labels used in this paper
