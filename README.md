@@ -17,7 +17,14 @@ torch 1.2+
 ### 1.1 Noisy labels used in this paper
 In our experiments, we generated noisy labels of IDN for MNIST and CIFAR-10. Here we have release the related files for your convience.
 ```
-path
+data/CIFAR10/label_noisy/dependent0.1.csv
+data/CIFAR10/label_noisy/dependent0.2.csv
+data/CIFAR10/label_noisy/dependent0.3.csv
+data/CIFAR10/label_noisy/dependent0.4.csv
+data/MNIST/label_noisy/dependent0.1.csv
+data/MNIST/label_noisy/dependent0.2.csv
+data/MNIST/label_noisy/dependent0.3.csv
+data/MNIST/label_noisy/dependent0.4.csv
 ```
 
 If you are developing novel methods, you are encouraged to use these files for a fair comparison with the results reported in our paper. The index in the .csv file is consistent with the default dataset in torchvision. For example, to create a CIFAR-10 dataset with 40% IDN, you can use the following scripts in you code.
