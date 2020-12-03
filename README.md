@@ -27,14 +27,14 @@ data/MNIST/label_noisy/dependent0.3.csv
 data/MNIST/label_noisy/dependent0.4.csv
 ```
 
-If you are developing novel methods, you are encouraged to use these files for a fair comparison with the results reported in our paper. The index in the .csv file is consistent with the default dataset in torchvision. For example, to create a CIFAR-10 dataset with 40% IDN, you can use the following scripts in you code.
+If you are developing novel methods, you are encouraged to use these files for a fair comparison with the results reported in our paper. The index in the .csv file is consistent with the default dataset in torchvision. For example, to get a CIFAR-10 dataset with 40% IDN, you can use the following scripts in you code.
 ```
 from torchvision import datasets
 train_dataset_noisy = datasets.CIFAR10(root, train=True, download=True, transform=transform)
 targets_noisy = list(pd.read_csv('./data/CIFAR10/label_noisy/dependent0.4.csv')['label_noisy'].values.astype(int))
 train_dataset_noisy.targets = targets_noisy
 ```
-to create a MNIST dataset with 40% IDN, you can use the following scripts in you code.
+To get a MNIST dataset with 40% IDN, you can use the following scripts in you code.
 ```
 from torchvision import datasets
 train_dataset_noisy = datasets.MNIST(root, train=True, download=True, transform=transform)
