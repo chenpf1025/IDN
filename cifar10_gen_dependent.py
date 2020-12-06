@@ -1,9 +1,3 @@
-"""
-Optionally:
-i) Normal training on CIFAR10 with clean/noisy labels. (--epochs)
-ii) Saving model. (--save_model)
-iii) Loading model and embedding the outputs of the hidden layer. (--emb)
-"""
 import os
 import math
 import argparse
