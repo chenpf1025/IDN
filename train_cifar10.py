@@ -17,7 +17,7 @@ def main():
     parser = argparse.ArgumentParser(description='PyTorch cifar10')
     parser.add_argument('--batch_size', type=int, default=128, help='input batch size for training (default: 128)')
     parser.add_argument('--test_batch_size', type=int, default=1000, help='input batch size for testing (default: 1000)')
-    parser.add_argument('--epochs', type=int, default=150, help='number of epochs to train (default: 20)')
+    parser.add_argument('--epochs', type=int, default=150, help='number of epochs to train (default: 150)')
     parser.add_argument('--gpu_id', type=int, default=0, help='index of gpu to use (default: 0)')
     parser.add_argument('--lr', type=float, default=0.1, help='init learning rate (default: 0.1)')
     parser.add_argument('--dp', type=float, default=0.0, help='dropout rate (default: 0.0)')
