@@ -4,7 +4,7 @@ This is the official repository for the paper [Beyond Class-Conditional Assumpti
 @inproceedings{chen2021beyond,
   title={Beyond Class-Conditional Assumption: A Primary Attempt to Combat Instance-Dependent Label Noise.},
   author={Chen, Pengfei and Ye, Junjie and Chen, Guangyong and Zhao, Jingwei and Heng, Pheng-Ann},
-  journal={Proceedings of the AAAI Conference on Artificial Intelligence},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
   year={2021}
 }
 ```
