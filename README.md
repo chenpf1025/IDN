@@ -1,11 +1,11 @@
 # Beyond Class-Conditional Assumption: A Primary Attempt to Combat Instance-Dependent Label Noise.
-This is the official repository for the paper [Beyond Class-Conditional Assumption: A Primary Attempt to Combat Instance-Dependent Label Noise](https://arxiv.org/abs/2012.05458). (Accepted by AAAI 2021). In this paper, one of the contributions is to provide rigorous motivations for studying instance-dependent label noise.
+This is the official repository for the paper [Beyond Class-Conditional Assumption: A Primary Attempt to Combat Instance-Dependent Label Noise](https://arxiv.org/abs/2012.05458). (AAAI 2021). In this paper, one of the contributions is to provide rigorous motivations for studying instance-dependent label noise.
 ```
-@article{chen2020beyond,
+@inproceedings{chen2021beyond,
   title={Beyond Class-Conditional Assumption: A Primary Attempt to Combat Instance-Dependent Label Noise.},
   author={Chen, Pengfei and Ye, Junjie and Chen, Guangyong and Zhao, Jingwei and Heng, Pheng-Ann},
-  journal={arXiv preprint arXiv:2012.05458},
-  year={2020}
+  journal={Proceedings of the AAAI Conference on Artificial Intelligence},
+  year={2021}
 }
 ```
 
